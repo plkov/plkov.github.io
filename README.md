@@ -1,2 +1,2 @@
 # misha lastochkine
-look homeward, angel
+eight bells for a young sailor
