@@ -24,8 +24,6 @@ header {
   margin-top: 2.5rem;
   margin-bottom: 4rem;
   grid-column: 1 / -1;
-
-  /* border: 1px solid #e2e2e2; */
 }
 
 h1 {
@@ -48,8 +46,6 @@ header p {
 nav {
   font-size: 1.3rem;
   line-height: 3;
-
-  /* border: 1px solid #e2e2e2; */
 }
 
 nav li, nav ul {
@@ -63,6 +59,11 @@ nav a:visited { color: black; }
 nav a:hover { color: #f4415f; cursor: default; }
 nav a:active { color: #3863aa; }
 
+.exlibris {
+  margin-top: 2rem;
+  width: 70px;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -70,8 +71,6 @@ main {
   height: 550px;
   justify-content: space-around;
   align-items: center;
-
-  /* border: 1px solid #e2e2e2; */
 }
 
 main img {
@@ -92,6 +91,4 @@ footer {
   font-size: 1rem;
   text-align: right;
   color: #a3a3a3;
-
-  /* border: 1px solid #e2e2e2;  */
 }
