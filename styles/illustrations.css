@@ -75,7 +75,7 @@ main {
 
   display: grid;
   grid-gap: 4rem;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
   grid-template-columns: auto;
 }
 
