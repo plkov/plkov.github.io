@@ -73,7 +73,7 @@ nav a:active { color: #3863aa; }
 main {
 
   display: grid;
-  grid-template-columns: 20rem auto;
+  grid-template-columns: 17rem auto;
   grid-row-gap: 4rem;
   grid-column-gap: 0;
 }
@@ -83,7 +83,7 @@ main {
   justify-self: center;
   font-size: 1.3rem;
   color: black;
-  border-right: 1px solid #d3d3d3;
+  /* border-right: 1px solid #d3d3d3; */
   margin-bottom: auto;
   padding: 2rem;
   word-spacing: 1rem;
@@ -92,6 +92,16 @@ main {
 
 .graphs {
   width: 1050px;
+  padding-left: 3rem;
+  border-left: 2px solid white;
+  filter: grayscale(50%);
+  transition: 0.25s;
+}
+
+.graphs:hover {
+  border-left: 2px solid #7baed1;
+  filter: grayscale(0%);
+  transition: 0.25s;
 }
 
 footer {
