@@ -94,7 +94,7 @@ main {
   width: 1050px;
   padding-left: 3rem;
   border-left: 2px solid white;
-  filter: grayscale(50%);
+  filter: grayscale(100%);
   transition: 0.25s;
 }
 
