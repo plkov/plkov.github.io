@@ -75,23 +75,34 @@ main {
 
   display: grid;
   grid-row-gap: 0;
-  grid-template-rows: 5rem 250px;
+  grid-template-rows: 250px;
   grid-template-columns: 250px 250px 250px;
 }
 
 .target {
-  grid-row: 2 / 3;
+  grid-row: 1 / 2;
 }
 
-.target img {
+.icon {
   width: 220px;
+  padding-bottom: 1.5rem;
+  filter: grayscale(1);
+  border-bottom: 2px solid white;
+  transition: 0.25s;
+}
+
+.icon:hover {
+  border-bottom: 2px solid #7baed1;
+  filter: none;
+  transition: 0.25s;
 }
 
 .text {
   grid-row: 1 / 2;
   margin: 0;
   padding: 0;
-  padding-top: 1rem;
+  padding: 1rem;
+  padding-left: 0;
   font-size: 1.3rem;
 }
 
