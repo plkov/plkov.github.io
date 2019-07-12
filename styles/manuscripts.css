@@ -89,14 +89,16 @@ main {
 }
 
 .thumbnail {
-  width: 850px;
+  width: 900px;
   filter: grayscale(80%);
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .thumbnail:hover {
-  filter: none;
-  transition: 0.3s;
+  filter: grayscale(0);
+  box-shadow: 0 0 15px #c2b08c;
+  transform: translateY(-3px);
+  transition: 0.2s;
 }
 
 footer {
