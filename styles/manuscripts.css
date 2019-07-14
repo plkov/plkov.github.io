@@ -97,7 +97,6 @@ main {
 .thumbnail:hover {
   filter: grayscale(0);
   box-shadow: 0 0 15px #c2b08c;
-  transform: translateY(-3px);
   transition: 0.2s;
 }
 
