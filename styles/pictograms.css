@@ -71,6 +71,7 @@ nav a:active { color: #3863aa; }
 }
 
 main {
+  grid-column: 2 / -1;
 
   display: grid;
   grid-template-columns: 18rem auto;
@@ -96,6 +97,7 @@ main {
 
 .pics {
   width: 900px;
+  margin-right: 2rem;
 }
 
 footer {
