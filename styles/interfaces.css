@@ -71,6 +71,7 @@ nav a:active { color: #3863aa; }
 }
 
 main {
+  grid-column: 2 / -1;
 
   display: grid;
   grid-template-columns: 13rem auto;
@@ -94,6 +95,7 @@ main {
 .ui {
   width: 1050px;
   grid-column: 2 / 3;
+  margin-right: 4rem;
 }
 
 footer {

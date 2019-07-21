@@ -71,6 +71,7 @@ nav a:active { color: #3863aa; }
 }
 
 main {
+  grid-column: 2 / -1;
 
   display: grid;
   grid-template-columns: auto;
@@ -92,6 +93,7 @@ main {
   width: 900px;
   filter: grayscale(80%);
   transition: 0.2s;
+  margin-right: 4rem;
 }
 
 .thumbnail:hover {

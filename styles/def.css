@@ -71,6 +71,7 @@ nav a:active { color: #3863aa; }
 }
 
 main {
+  grid-column: 2 / -1;
 
   display: grid;
   grid-template-columns: 17rem auto;
@@ -78,12 +79,9 @@ main {
   grid-column-gap: 0;
 }
 
-.depart, .fin {
+.depart, .fin, .add {
   width: 900px;
-}
-
-.add {
-  width: 900px;
+  margin-right: 4rem;
 }
 
 .depart-text, .fin-text {
